@@ -44,7 +44,7 @@ class TasksController < ApplicationController
   end
 
   def update
-    if Task.exists?(params[:id])  && (params[:completion_level] == true )
+    if Task.exists?(params[:id])  && (params[:completion_level] == true)
       task = ask.find(params[:id])
       task.message = params[:message]
       task.save
