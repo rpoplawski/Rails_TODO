@@ -31,9 +31,9 @@ Things you may want to cover:
 
 4) If the user visits the URL "http://localhost:3000/tasks/8989898", Postman should display an error message as JSON.
 
-5) If the user sends a POST request to http://localhost:3000/tasks with the params of { "body": "Finish Homework" }, Postman should display the task as JSON.
+5) If the user sends a POST request to "http://localhost:3000/tasks" with the params of { "body": "Finish Homework" }, Postman should display the task as JSON.
 
-6)
+6) If the user sends a DELETE request to "http://localhost:3000/tasks/1", the task should be deleted from the database and Postman should display the message “deleted” as JSON.
 
 
 
