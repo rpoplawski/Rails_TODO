@@ -23,6 +23,11 @@ Things you may want to cover:
 
 * ...
 
+
+******
+
+NORMAL MODE
+
 1) If the user visits the URL "http://localhost:3000/tasks", Postman should display all the todos as JSON.
 
 2) If the user visits the URL "http://localhost:3000/tasks/new", Postman should display an empty (new) todo as JSON.
@@ -35,7 +40,11 @@ Things you may want to cover:
 
 6) If the user sends a DELETE request to "http://localhost:3000/tasks/1", the task should be deleted from the database and Postman should display the message “deleted” as JSON.
 
+******
 
+HARD MODE
+
+1) If the user sends a PUT request the URL "http://localhost:3000/tasks/1" with the params of { completed: true }, Postman should update the todo in the database and display the newly changed todo as JSON.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
