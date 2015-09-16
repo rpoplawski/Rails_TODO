@@ -25,7 +25,7 @@ class TasksController < ApplicationController
       err_msg = "The 'message' parameter was empty or not found"
       render json: { error_msg: err_msg }.to_json, status: 422
     else
-      # task = Task.create(message: params[:message]) => this is the same as the (3) lines below
+      # task = Task.create(body: params[:body]) => this is the same as the (3) lines below
       task = Task.new
       task.body = params[:body]
       task.save
