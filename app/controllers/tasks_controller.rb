@@ -51,14 +51,7 @@ class TasksController < ApplicationController
     #render text: "params : #{params.inspect}"
       if Task.exists?(params[:id])
         update_task_status = Task.update(params[:id], completed: params[:completed])
-
         render json: update_task_status, status: 200
-
-    # if Task.exists?(params[:id]) && (params[:completion_level] == true)
-    #    task = Task.find(params[:id])
-    #   task.completion_level = params[:completion_level]
-    #   task.save
-    #   render json: task.to_json, status: 200
      else
       render json: { error_msg: 'Record Not Found!', id: params[:id] }.to_json, status: 404
      end
