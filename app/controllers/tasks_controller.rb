@@ -49,10 +49,10 @@ class TasksController < ApplicationController
 
   def update
     #render text: "params : #{params.inspect}"
-     if Task.exists?(params[:id])
-      update_task_status = Task.update(params[:id], completed: params[:completion_level])
+      if Task.exists?(params[:id])
+        update_task_status = Task.update(params[:id], completed: params[:completed])
 
-      render json: update_task_status, status: 200
+        render json: update_task_status, status: 200
 
     # if Task.exists?(params[:id]) && (params[:completion_level] == true)
     #    task = Task.find(params[:id])
