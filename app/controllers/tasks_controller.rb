@@ -11,7 +11,6 @@ class TasksController < ApplicationController
     render json: Task.new
   end
 
-
   def show
     #render text: "params : #{params.inspect}"
     if Task.exists?(params[:id])
