@@ -7,8 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <nav>
+    <a href='/tasks'>view all tasks</a>
+  </nav>
+  <%= yield %>
 </body>
+<footer>
+  <p>Made with &hearts; by Ryan the Dude</p>
+  <a href='#top'>go to top</a>
+</footer>
 </html>

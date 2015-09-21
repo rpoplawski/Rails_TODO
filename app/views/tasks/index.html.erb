@@ -1,17 +1,12 @@
-<html>
-  <head>
-    <title>My First Webpage</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+
     <header id='top'>
       <h1 class='banner'>Welcome to the Task-Man</h1>
     </header>
 
-    <main>
-      <section class="about">
-        <h2>About</h2>
+  <section class='tasks'>
+    <h2>Tasks</h2>
+    <% tasks.each do |task| %>
+      <a href='/tasks/<%= task.id %>/tasks'><%= task.body' %></a>
 
-        <a href="http://google.com">cool site</a> <!-- External Link -->
-
-
+    <% end %>
+  </section>

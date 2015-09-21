@@ -17,7 +17,7 @@ class TasksController < ApplicationController
 
   def show
     #render text: "params : #{params.inspect}"
-    task = Tasks.find(params[:id])
+    task = Task.find(params[:id])
     respond_to do |f|
     f.html do
       render template: 'tasks/show.html.erb', locals: { task: task }
@@ -67,5 +67,5 @@ end
  #     render json: { error_msg: 'Record Not Found!', id: params[:id] }.to_json, status: 404
  #    end
  # end
-
+end
 
