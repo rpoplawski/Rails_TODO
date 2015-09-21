@@ -13,7 +13,6 @@ class TasksController < ApplicationController
     end
   end
 
-
   def show
     #render text: "params : #{params.inspect}"
     task = Task.find(params[:id])
