@@ -1,11 +1,11 @@
 
     <header id='top'>
-      <h1 class='banner'>Welcome to the Task-Man</h1>
+      <h1 class='banner'>Welcome to the 'Texas Task-Man' </h1>
     </header>
 
   <section class='tasks'>
     <h2>Tasks</h2>
     <% tasks.each do |task| %>
-      <a href='/tasks/<%= task.id %>/tasks'><%= task.body' %></a>
+      <a href='/tasks/<%= task.id %>/tasks'><%= task.body %></a>
     <% end %>
   </section>
