@@ -14,7 +14,7 @@
 
 Visit the following URL:
 
-http://localhost:3000/tasks
+http://localhost:3000/tasks/<index#> You will see the tasks listed by id.
 
 The 'show.html.erb' and 'index.html.erb' files are located in the 'tasks' folder.
 
