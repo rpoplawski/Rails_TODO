@@ -1,50 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+  1)  Create a header and footer for your todo site that are included on every page.
 
-* Ruby version
+  2)  The header must contain a nav element that contains a link to every page of your app
 
-* System dependencies
+  3)  Fully styled tasks/index
 
-* Configuration
+  4)  Fully styled tasks/show
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  5)  The root of your site should render the tasks#index html page.
 
 
-******
+Visit the following URL:
 
-NORMAL MODE
-
-1) If the user visits the URL "http://localhost:3000/tasks", Postman should display all the todos as JSON.
-
-2) If the user visits the URL "http://localhost:3000/tasks/new", Postman should display an empty (new) todo as JSON.
-
-3) If the user visits the URL "http://localhost:3000/tasks/1", Postman should display just that single todo as JSON.
-
-4) If the user visits the URL "http://localhost:3000/tasks/8989898", Postman should display an error message as JSON.
-
-5) If the user sends a POST request to "http://localhost:3000/tasks" with the params of { "body": "Finish Homework" }, Postman should display the task as JSON.
-
-6) If the user sends a DELETE request to "http://localhost:3000/tasks/1", the task should be deleted from the database and Postman should display the message “deleted” as JSON.
-
-******
-
-HARD MODE
-
-1) If the user sends a PUT request the URL "http://localhost:3000/tasks/1" with the params of { completed: true }, Postman should update the todo in the database and display the newly changed todo as JSON.
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://localhost:3000/tasks
