@@ -25,3 +25,13 @@ a {
 h1, h2 {
   color: #CC6633;
 }
+
+h1 {
+    background-color: #00ff00;
+}
+
+
+
+body {
+    border: 3px dotted #000;
+}
