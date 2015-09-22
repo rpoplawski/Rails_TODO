@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+#------------
+
+#tasks_all = %w(#{"do dishes", "take a walk", "study", "mow, trim, edge lawn", "practice good code-writing skills"})
+
+#5.times do |tasks|
+#  task = tasks.all.sample
+#  Task.create({body: task, completed: false})
+#end
+
+#------
