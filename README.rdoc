@@ -15,3 +15,7 @@
 Visit the following URL:
 
 http://localhost:3000/tasks
+
+The 'show.html.erb' and 'index.html.erb' files are located in the 'tasks' folder.
+
+Data in the DB was randomly created.
